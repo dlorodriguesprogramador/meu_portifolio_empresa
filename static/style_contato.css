@@ -1,0 +1,94 @@
+main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    background: rgba(255,255,255,0.05);
+    padding: 2.5rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    max-width: 400px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.contact-container h2 {
+    color: var(--python-yellow);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form label {
+    color: var(--python-yellow);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #23272f;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--python-blue);
+}
+
+.contact-form button {
+    background: var(--python-yellow);
+    color: var(--dark-bg);
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: var(--python-blue);
+    color: var(--python-yellow);
+}
+
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact-info p {
+    color: #e0e0e0;
+    margin: 0.3rem 0;
+}
+
+.contact-info a {
+    color: var(--python-yellow);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: var(--python-blue);
+}
+
+@media (max-width: 500px) {
+    .contact-container {
+        padding: 1.2rem 0.5rem;
+    }
+} 
