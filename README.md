@@ -1,4 +1,4 @@
-# DRPyTech - Portfólio
+# DRPyTech - Portfólio - DESATIVADO NO MOMENTO
 
 **DRPyTech** é o portfólio profissional de Douglas Rodrigues, criado com Flask, com foco em apresentar projetos desenvolvidos em Python voltados à automação, inteligência artificial e soluções tecnológicas para empresas.
 
